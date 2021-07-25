@@ -35,11 +35,63 @@ You can rewrite a variable data type
 
 `
 $x = "Hello"
-
+`
+`
 $x.length
-
 `
 
 The functions of each type can be known by using get-member
 
 Single quotes is literal, while take $x as a literal.
+
+## Comparison Operators
+
+`
+12 -eq 37
+`
+
+The idea should be to compare object.
+
+* -ne : not equal
+
+* -gt : greater tha
+
+* -lt : less than
+
+Note
+`
+"a" -eq "A" will return true
+`
+
+For case
+`
+"a" -ceq "A" will return false
+
+Like for use wildcard
+`
+"Apple" -like "A*" will return true
+`
+
+Wildcards
+`
+"Apple" -like "A??l?" will return true
+`
+
+`
+"My name is Marco" -match "marco" will return true
+`
+
+To use it case sentive use -cmatch
+
+## cmdlet Basic
+They usually use naming conventions
+
+verb-noun
+
+ex:
+
+`
+get-process
+`
+
+write-host works like a print
