@@ -95,3 +95,17 @@ get-process
 `
 
 write-host works like a print
+
+You can create cmdlets
+
+## Aliases
+Alternative names
+
+get-dir
+
+
+## Help
+`
+help Set-Alias -online
+`
+opens online documentation
