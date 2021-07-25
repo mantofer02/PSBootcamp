@@ -30,3 +30,16 @@ $x = 1 - 2
 $x = 1 - 2 | get-member
 `
 Doing this, it lets rules out the properties and methods of objects.
+
+You can rewrite a variable data type
+
+`
+$x = "Hello"
+
+$x.length
+
+`
+
+The functions of each type can be known by using get-member
+
+Single quotes is literal, while take $x as a literal.
